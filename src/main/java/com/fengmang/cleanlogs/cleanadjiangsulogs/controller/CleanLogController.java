@@ -16,6 +16,7 @@ public class CleanLogController {
     public JSONObject readLog() {
         JSONObject back = new JSONObject();
         back.put("result", "ok");
+        back.put("result2", "ok");
         return back;
     }
 }
